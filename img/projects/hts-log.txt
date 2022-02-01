@@ -1,0 +1,22 @@
+HTTrack3.49-2 launched on Mon, 31 Jan 2022 00:36:53 at http://slimhamdi.net/istanbul/demos/index-left-image-dark.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://slimhamdi.net/istanbul/demos/index-left-image-dark.html -O "/Users/gopal/Downloads/websites/Portfolio-Daria-Taylor" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:36:55	Error: 	"Internal Server Error" (500) after 2 retries at link slimhamdi.net/robots.txt (from primary/primary)
+01:01:15	Warning: 	Retry after error -4 (Incorrect length (17978090 Bytes, 20009631 expected)) at link slimhamdi.net/istanbul/demos/img/projects/video.mp4 (from slimhamdi.net/istanbul/demos/index-left-image-dark.html)
+01:05:20	Warning: 	HTML file (10403 bytes) retransferred due to lack of cache: slimhamdi.net/istanbul/demos/blog.html
+01:19:59	Warning: 	Retry after error -2 (Receive Time Out) at link slimhamdi.net/istanbul/demos/img/projects/video.mp4 (from slimhamdi.net/istanbul/demos/index-left-image-dark.html)
+01:19:59	Warning: 	File not parsed, looks like binary: slimhamdi.net/istanbul/demos/fonts/fontawesome-webfont.woff2?v=4.7.0
+01:19:59	Warning: 	Retry after error 500 (Internal Server Error) at link slimhamdi.net/istanbul/demos/img/fullscreenlight.jpg (from slimhamdi.net/istanbul/demos/css/style.css)
+01:53:45	Warning: 	Retry after error -4 (Incorrect length (16577946 Bytes, 20009631 expected)) at link slimhamdi.net/istanbul/demos/img/projects/video.mp4 (from slimhamdi.net/istanbul/demos/img/projects/video.mp4)
+01:58:13	Warning: 	Retry after error 500 () at link slimhamdi.net/istanbul/demos/img/fullscreenlight.jpg (from slimhamdi.net/istanbul/demos/css/style.css)
+01:58:14	Error: 	"" (500) after 2 retries at link slimhamdi.net/istanbul/demos/img/fullscreenlight.jpg (from slimhamdi.net/istanbul/demos/css/style.css)
+02:24:59	Warning: 	Retry after error -2 (Receive Time Out) at link slimhamdi.net/istanbul/demos/img/projects/video.mp4 (from slimhamdi.net/istanbul/demos/img/projects/video.mp4)
+02:42:50	Error: 	"Incorrect length (9516212 Bytes, 20009631 expected)" (-4) after 2 retries at link slimhamdi.net/istanbul/demos/img/projects/video.mp4 (from slimhamdi.net/istanbul/demos/img/projects/video.mp4)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 hours 5 minutes 57 seconds : 72 links scanned, 63 files written (43257334 bytes overall) [52084553 bytes received at 6892 bytes/sec], 985538 bytes transferred using HTTP compression in 25 files, ratio 25%
+(3 errors, 8 warnings, 0 messages)
